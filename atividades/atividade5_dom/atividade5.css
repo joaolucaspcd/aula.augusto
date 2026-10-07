@@ -1,0 +1,76 @@
+/* Configuração geral e cores base */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Títulos */
+h1 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #b0b0b0;
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+/* Link de voltar */
+a {
+    display: inline-block;
+    color: #64b5f6;
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #90caf9;
+    text-decoration: underline;
+}
+
+/* Linha divisória */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #333333;
+    margin: 20px 0;
+}
+
+/* Botão */
+button {
+    background-color: #1e88e5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Container onde os exercícios serão carregados pelo DOM */
+#divcontainer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #1e1e1e;
+    border: 1px solid #2c2c2c;
+    border-radius: 8px;
+    min-height: 50px;
+}
