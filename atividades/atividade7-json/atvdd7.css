@@ -1,0 +1,75 @@
+/* Configurações Gerais */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Link de Voltar */
+a {
+    display: inline-block;
+    color: #90caf9;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #bbdefb;
+    text-decoration: underline;
+}
+
+/* Título */
+h1 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+/* Campos de Input Numérico */
+input[type="number"] {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #333333;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 180px;
+    outline: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: border-color 0.2s;
+}
+
+input[type="number"]:focus {
+    border-color: #90caf9;
+}
+
+/* Botão Estilizado */
+button {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border: 1px solid #444444;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+button:hover {
+    background-color: #333333;
+    border-color: #90caf9;
+}
+
+/* Parágrafos de Resultados */
+p {
+    color: #cccccc;
+    font-size: 1rem;
+    margin: 10px 0;
+    font-weight: 500;
+}
