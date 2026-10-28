@@ -6,13 +6,12 @@ const jsondados = JSON.stringify([
 
 ]);
 
-const dadosconvertidos = JSON.parce(jsondados);
+const dadosconvertidos = JSON.parse(jsondados);
 const corpotabela = document.getElementById('tbodycorpotabela');
 dadosconvertidos.forEach(usuario => {
     const linha = document.createElement('tr');
 
-    linha.innerHTML = `<td>${usuario.id}</td><td>${usuario.nome}
-    </td><td>${usuario.E-mail}</td>` ;
+    linha.innerHTML = `<td>${usuario.id}</td><td>${usuario.nome}</td><td>${usuario.email}</td>` ;
 
     corpotabela.appendChild(linha);
 
